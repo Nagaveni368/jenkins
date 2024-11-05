@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clone the repository
-                git branch:'main',url: 'https://github.com/Datameow07/meow.git'
+                git branch:'main',url: 'https://github.com/Nagaveni368/jenkins.git'
             }
         }
  
